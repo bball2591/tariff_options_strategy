@@ -56,8 +56,9 @@ tariff-options-strategy/
   notebooks/
   data/
   report/
+---
 
-Method Overview
+## Method Overview
 
 1) Scenario model (tariff severity)
 
@@ -91,7 +92,7 @@ A brute-force search over put spreads selects strikes (K_long, K_short) minimisi
 - target payoff curve
 
 
-How to Run
+## How to Run
 
 1) Create and activate a virtual environment
 
@@ -123,7 +124,7 @@ python run_step8.py
 python run_step9.py
 python run_step10.py
 
-Optional: generate report figures
+## Optional: generate report figures
 
 powershell
 
