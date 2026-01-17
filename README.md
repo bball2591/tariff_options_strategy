@@ -56,7 +56,7 @@ tariff-options-strategy/
   notebooks/
   data/
   report/
----
+```
 
 ## Method Overview
 
@@ -96,26 +96,26 @@ A brute-force search over put spreads selects strikes (K_long, K_short) minimisi
 
 1) Create and activate a virtual environment
 
-powershell
+```powershell
 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-
+```
 2) Install dependencies
 
-powershell
+```powershell
 
 pip install -r requirements.txt
-
+```
 If you use notebooks:
 
-powershell
+```powershell
 
 pip install ipykernel
-
+```
 3) Run the pipeline scripts
 
-powershell
+```powershell
 
 python run_step5.py
 python run_step6.py
@@ -123,13 +123,13 @@ python run_step7.py
 python run_step8.py
 python run_step9.py
 python run_step10.py
-
+```
 ## Optional: generate report figures
 
-powershell
+```powershell
 
 python make_report_figures.py
-
+```
 
 Notes / Limitations
 - Scenario probabilities are subjective and could be updated dynamically (news-based or Bayesian updating).
